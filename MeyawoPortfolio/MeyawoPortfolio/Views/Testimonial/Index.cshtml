@@ -1,0 +1,38 @@
+﻿@model List<MeyawoPortfolio.Models.TblTestimonial>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/_Layout.cshtml";
+}
+
+<h3>Referanslar</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>İsim-Soyisim</th>
+        <th>Resim</th>
+        <th>Açıklama</th>
+        <th>Pozisyon</th>
+
+        <th> Sil</th>
+        <th>Güncelle </th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.TestimonialID</td>
+            <td>@item.NameSurname</td>
+            <td>@item.ImageUrl</td>
+            <td>@item.Description</td>
+            <td>@item.Status</td>
+
+            <td><a href="/Testimonial/DeleteTestimonial/@item.TestimonialID" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Testimonial/UpdateTestimonial/@item.TestimonialID" class="btn btn-success">Güncelle</a></td>
+
+
+
+        </tr>
+    }
+
+</table>
+<a href="/Testimonial/CreateTestimonial" class="btn btn-primary">Yeni Referans  Girişi</a>

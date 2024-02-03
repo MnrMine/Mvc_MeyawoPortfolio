@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6d0ef7512c674c068831ca5755d2c8e3" Name="Diagram1">
+        <EntityTypeShape EntityType="DbMyPortfolyoModel.sysdiagrams" Width="1.5" PointX="3.125" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMyPortfolyoModel.TblAbout" Width="1.5" PointX="5.125" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMyPortfolyoModel.TblCategory" Width="1.5" PointX="3.125" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMyPortfolyoModel.TblContact" Width="1.5" PointX="8" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMyPortfolyoModel.TblFuture" Width="1.5" PointX="7.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMyPortfolyoModel.TblProject" Width="1.5" PointX="5.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMyPortfolyoModel.TblService" Width="1.5" PointX="10.125" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMyPortfolyoModel.TblSocialMedia" Width="1.5" PointX="0.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMyPortfolyoModel.TblTestimonial" Width="1.5" PointX="9.875" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="DbMyPortfolyoModel.FK_TblProject_TblCategory" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbMyPortfolyoModel.TblAdminSidebar" Width="1.5" PointX="1" PointY="2.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
